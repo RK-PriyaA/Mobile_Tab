@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        #main{
+            width: 100vw;
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(175, 107, 238);
+        }
+        #mobileDiv{
+            background-color: rgb(248, 241, 232);
+            width: 23%;
+            height: 73%;
+            border-radius: 0.5rem;
+            border: solid seashell;
+        }
+        img{
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+        #icon{
+            display: flex;
+            justify-content: space-around;
+        }
+        .iconTxt{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 7px;
+            color: rgb(77, 70, 70);
+        }
+        .iconTxt:hover{
+            color: blueviolet;
+            cursor: pointer;
+        }
+        i{
+            padding-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="mobileDiv">
+            <img src="https://images.pexels.com/photos/5331920/pexels-photo-5331920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100%" height="87%">
+            <div id="icon">
+                <div class="iconTxt"><i class="fa fa-home" aria-hidden="true"></i>Home</div>
+                <div class="iconTxt"><i class="fa fa-briefcase" aria-hidden="true"></i>Work</div>
+                <div class="iconTxt"><i class="fa fa-th-large" aria-hidden="true"></i>Blog</div>
+                <div class="iconTxt"><i class="fa fa-address-book-o" aria-hidden="true"></i>About Us</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
